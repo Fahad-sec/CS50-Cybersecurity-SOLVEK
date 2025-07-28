@@ -1,22 +1,10 @@
-import string
-def is_valid_password(password):
-    if len(password) < 8:
-        return "password too short. must be at least 8 characters."
+## 📖 About This Script
 
-    has_number = any(char.isdigit() for char in password)
-    has_symbol = any(char in string.punctuation for char in password)
+This password validator was originally provided by ChatGPT based on rules discussed in CS50’s Lecture 0. 
 
-    if not has_number:
-        return "password must contain at least one number."
-    
-    if not has_symbol:
-        return "password must contain at least one symbol."
+Instead of copy-pasting it, I **typed the entire code manually in my Linux VM** and spent over 25 iterations debugging and fixing syntax/logic issues myself. That hands-on fixing helped me understand:
+- String manipulation
+- Input validation
+- Logical conditions
 
-    digit_sum = sum(int(char) for char in password if char.isdigit())
-    if digit_sum !=25:
-        return "digits in password must add up to 25."
-    return "password is valid"
-if __name__ == "__main__": 
-    password = input ("enter a password to validate: ")
-    result = is_valid_password(password)
-    print(result)
+I didn’t create the core idea from scratch, but **fixing and analyzing the errors myself** gave me a much deeper understanding than just copy-pasting would have.
