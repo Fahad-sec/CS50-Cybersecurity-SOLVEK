@@ -1,6 +1,5 @@
 """
-Solvek-cybersec
-Course projects and labs for CS50’s Introduction to Cybersecurity.
+Solvek-cybersec Course Projects and Labs for CS50’s Introduction to Cybersecurity
 
 WEEK 0 – Password Rule Validator:
 
@@ -9,6 +8,7 @@ WEEK 0 – Password Rule Validator:
 - Must contain at least one symbol
 - Digits in the password must add up to 25
 """
+
 import string
 
 def is_valid_password(password):
@@ -34,5 +34,3 @@ if __name__ == "__main__":
     password = input("Enter a password to validate: ")
     result = is_valid_password(password)
     print(result)
-
-
