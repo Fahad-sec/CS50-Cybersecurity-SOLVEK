@@ -8,7 +8,7 @@ def is_valid_password(password):
 
     if not has_number:
         return "password must contain at least one number."
-    i
+    
     if not has_symbol:
         return "password must contain at least one symbol."
 
