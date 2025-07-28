@@ -1,4 +1,15 @@
-## 📖 About This Script
+#Solvek-Cyber-sec
+A collection of cybersecurity-related scripts built during my learning journey.
+
+---
+
+## 📁 Projects
+
+### 1. Password Validator
+- 📄 `validators/password_validator.py`
+- Checks if a password meets security rules (length, digits, symbols, digit sum)
+
+## 📖 About this script
 
 This password validator was originally provided by ChatGPT based on rules discussed in CS50’s Lecture 0. 
 
