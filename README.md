@@ -23,3 +23,24 @@ I didn’t create the core idea from scratch, but **fixing and analyzing the err
 ### 2. Brute Force Password Cracker 
 📄 brute_force_demo.py
 Demonstrates a brute force attack by using all possible character combinations until a target is matched. It is a great way to demonstrate and understand how insecure a short password can be. 
+
+
+### 3. File Encryptor
+
+A simpe Python script to encrypt and decrypt files using Fernet symmetric encryption.
+
+## Features 
+- Generates and stores encrytion key
+- Encrypts and file into ".encrypted" format
+- Decrypts back into ".decrypted"
+- easy to use
+## Usage 
+1. Place a txt file ("example.txt") in the directory.
+2. Run "python3 encrypt_decrypt.py"
+3. check for "encrypted" and "decrypted" files created
+
+## warning 
+DO NOT UPLOAD YOU "SECRET.KEY' file anywhere. This key could decrypt you files.
+
+## License 
+MIT
