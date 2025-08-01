@@ -27,7 +27,7 @@ Demonstrates a brute force attack by using all possible character combinations u
 
 ### 3. File Encryptor
 
-A simpe Python script to encrypt and decrypt files using Fernet symmetric encryption.
+This script was written as part of my journey learning file encryption with Python and the cryptography module. It encrypts and decrypts files using Fernet symmetric encryption. It's a simple demo for personal understanding, not meant for production use.
 
 ## Features 
 - Generates and stores encrytion key
@@ -42,5 +42,3 @@ A simpe Python script to encrypt and decrypt files using Fernet symmetric encryp
 ## warning 
 DO NOT UPLOAD YOU "SECRET.KEY' file anywhere. This key could decrypt you files.
 
-## License 
-MIT
