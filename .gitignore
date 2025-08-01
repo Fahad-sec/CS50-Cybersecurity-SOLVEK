@@ -1,0 +1,11 @@
+# Ignore sensitive and junk files 
+secret.key
+*.encrypted 
+*.decrypted 
+
+# Ignore Python cache files 
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folder 
+venv/
