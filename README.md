@@ -50,11 +50,11 @@ This is a simple script written as a part of the CS-50 Cybersec course and is in
 ## Output of the Command
 python3 password_manager.py
 
----
+'''
 
 == Password Manager ==
 1. Add credential
 2. Get credential
 3.Exit
 Choose an option:
----
+'''
