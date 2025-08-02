@@ -57,7 +57,7 @@ python3 password_manager.py
    
 3. Get credential
 
-3.Exit
+3. Exit
 
 Choose an option:
 
