@@ -27,6 +27,7 @@ Demonstrates a brute force attack by using all possible character combinations u
 
 
 ### 3. File Encryptor
+📄 encrypt_decrypt.py
 
 This script was written as part of my journey learning file encryption with Python and the cryptography module. It encrypts and decrypts files using Fernet symmetric encryption. It's a simple demo for personal understanding, not meant for production use.
 
