@@ -54,4 +54,4 @@ python3 password_manager.py
 1. Add credential
 2. Get credential
 3.Exit
-Choose an option: 
+Choose an option:
