@@ -22,6 +22,7 @@ I didn’t create the core idea from scratch, but **fixing and analyzing the err
 
 ### 2. Brute Force Password Cracker 
 📄 brute_force_demo.py
+
 Demonstrates a brute force attack by using all possible character combinations until a target is matched. It is a great way to demonstrate and understand how insecure a short password can be. 
 
 
@@ -45,15 +46,18 @@ DO NOT UPLOAD YOU "SECRET.KEY' file anywhere. This key could decrypt you files.
 
 ### 4. Password Manager
 -📄 password_manager.py
+
 This is a simple script written as a part of the CS-50 Cybersec course and is inspired by lecture 1. The script uses cryptography and Fernet to encrypt credentials by using a key and saves it to a file, the creentials are given by a user, this script can also decrypt those credentials given if you choose that option uppon running the command.
 
 ## Output of the Command
 python3 password_manager.py
 
-'''
 == Password Manager ==
 1. Add credential
-2. Get credential
+   
+3. Get credential
+
 3.Exit
+
 Choose an option:
-'''
+
