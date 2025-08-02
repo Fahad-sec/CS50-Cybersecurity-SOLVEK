@@ -42,3 +42,16 @@ This script was written as part of my journey learning file encryption with Pyth
 ## warning 
 DO NOT UPLOAD YOU "SECRET.KEY' file anywhere. This key could decrypt you files.
 
+
+### 4. Password Manager
+-📄 password_manager.py
+This is a simple script written as a part of the CS-50 Cybersec course and is inspired by lecture 1. The script uses cryptography and Fernet to encrypt credentials by using a key and saves it to a file, the creentials are given by a user, this script can also decrypt those credentials given if you choose that option uppon running the command.
+
+## Output of the Command
+python3 password_manager.py
+
+== Password Manager ==
+1. Add credential
+2. Get credential
+3.Exit
+Choose an option: 
