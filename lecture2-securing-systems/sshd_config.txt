@@ -1,0 +1,17 @@
+# Hardened SSHD Configuration for secure Remote Acess Demo 
+
+# Only changed/uncommented lines are included:
+
+Port 2222                                     # Changed ssh port for security 
+PermitLogin no                                # Disables root login    
+PasswordAuthentication no                     # Enforce Key_based auth
+PermitEmptyPasswords no                       # NO empty password login 
+LoginGraceTime 30                             # Reeduce grace time to 30s 
+PermitUserEnvironment no                      # Prevent user-specific envs
+MaxAuthTries 3                                # Fewer authentication retries 
+UsePAM yes                                    # keep Pam enabled 
+KbdInteractiveAuthentication no               # Disable keyboard-interactive 
+X11Forwarding yes                             # Optional, for GUI forwarding 
+Printmotd no                                  # No message of the day 
+Subsystem sftp /usr/lib/openssh/sftp-server
+AcceptEnv LANG LC_* COLORTERM NO_COLOR 
