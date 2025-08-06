@@ -9,11 +9,36 @@ sudo adduser testuser
 cat /etc/passwd | grep testuser 
 
 ## 4. Gave "testuser" sudo privileges which can be useful 
-
 sudo usermod -aG sudo testuser 
 
 ## 5. Confirmed that the ssh server was installed:
-s
+sudo apt update 
+sudo apt install openssh-server
+
+## 6. Edited the ssh configuration to allow password authentication and the new user:
+sudo nano /etc/ssh/sshd_config 
+
+changed/added the following lines:
+Port 2222
+PermitRootLogin no
+PasswordAuthentication yes 
+AllowUser testuser
+(others are mentioned in the config file)
+
+## 7. Restarted ssh to apply changes ( had to learn this by getting persistent errors):
+sudo systemctl restart ssh 
+
+## 8. Allowed port 2222 in the fireawll:
+sudo ufw allow 2222
+
+## 9. Logged in remotely via putty from windows to my kali vm:
+- (Provided my kali ip and the port number to access the vm)
+
+## 10. Confirmed successful login using password:
+- (Used the username allowed in the ssh config and entered password when prompted)
+
+Note: Public key authentication was attempted but skipped due to persistent issues, Might revisit it later. Current setup uses password-based login.
+
 
 
 
