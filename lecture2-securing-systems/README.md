@@ -14,3 +14,5 @@ This demo showcases a secure remote login to a kali linux Vm using a "testuser" 
 ### Importance of the Project:
 - Demonstrates system hardening
 - Real-world practice for remote secure access
+
+NOTE: This project was a part of the cs50 Cybersecurity course in which i ran into a few issues with the key-based login but documented everything as i went.
