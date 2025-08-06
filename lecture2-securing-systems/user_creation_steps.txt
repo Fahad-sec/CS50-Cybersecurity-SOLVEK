@@ -1,1 +1,19 @@
+# User Creation & Remote Access Setup:
+
+## 1. Created a new user account named "testuser" :
+sudo adduser testuser 
+
+## 2. Gave "testuser" a password when prompted.
+
+## 3.verified testuser was added:
+cat /etc/passwd | grep testuser 
+
+## 4. Gave "testuser" sudo privileges which can be useful 
+
+sudo usermod -aG sudo testuser 
+
+## 5. Confirmed that the ssh server was installed:
+s
+
+
 
