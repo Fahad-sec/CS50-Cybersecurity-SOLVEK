@@ -1,6 +1,6 @@
 # Lecture 2 - Securing Systems 
 
-## Project: Secure Remore Acess 
+## Project: Secure Remore Access 
 
 This demo showcases a secure remote login to a kali linux Vm using a "testuser" account, with ssh config, key-based authentication, and other hardening steps.
 ]
