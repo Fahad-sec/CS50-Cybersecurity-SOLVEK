@@ -4,9 +4,9 @@
 
 Port 2222                                     # Changed ssh port for security 
 PermitLogin no                                # Disables root login    
-PasswordAuthentication no                     # Enforce Key_based auth
+PasswordAuthentication no                     # Enforce Key_based authentication
 PermitEmptyPasswords no                       # NO empty password login 
-LoginGraceTime 30                             # Reeduce grace time to 30s 
+LoginGraceTime 30                             # Reduces grace time to 30s 
 PermitUserEnvironment no                      # Prevent user-specific envs
 MaxAuthTries 3                                # Fewer authentication retries 
 UsePAM yes                                    # keep Pam enabled 
