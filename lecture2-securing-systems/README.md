@@ -17,5 +17,6 @@ This demo showcases a secure remote login to a kali linux Vm using a "testuser" 
 
 NOTE: This project was a part of the cs50 Cybersecurity course in which I ran into a few issues with the key-based login but documented everything as I progessed.
 
-Time spent: ~8 hours over 2 days 
+Time spent: ~8 hours over 2 days
+
 Challenges: Troubleshooting public key authentication, configuring ssh, using port 2222, firewall and permission issues, I was able to resolve all those except the key-auth because of which I skipped it for the time being, might check up on it later. 
