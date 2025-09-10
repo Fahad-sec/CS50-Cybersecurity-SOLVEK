@@ -1,5 +1,4 @@
-#Solvek-Cyber-sec
-A collection of cybersecurity-related scripts built during my learning journey.
+# CS50 Intro to Cybersecurity — course projects & labs
 
 ---
 
